@@ -1,0 +1,226 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="d-gb">
+    <image src="../../images/bg.png" mode='widthFix'></image>
+  </view>
+  <view class="d-b">
+    <image src="../../images/frame.png" mode='widthFix'></image>
+  </view>
+  <view class="d-container">
+    <view class="logo-title">
+      <view class='top-logo'>
+        <image src="../../images/logo.png" mode='widthFix'></image>
+      </view>
+      <view class='top-title'>
+        <view class='title-b'>众帮互助</view>
+        <view class='title-m'>邀请你兼职赚钱</view>
+      </view>
+    </view>
+    <view class='role-b'>
+      让你换个“活”法
+      <image class='i-l' src="../../images/role2.png" mode='widthFix'></image>
+      <image src="../../images/role1.png" mode='widthFix'></image>
+    </view>
+    <view class='contant-m'>
+      <text>官方QQ：878543593</text>
+      <text>官方微信：youchen_service1</text>
+    </view>
+    <view class='c-code'>
+      <view>
+        <view>扫码下载APP</view>
+        <!-- <view class='save'>点击二维码保存到相册</view> -->
+      </view>
+      <view class='s-code'>
+        <image src="../../images/code.png" mode='widthFix'></image>
+      </view>
+    </view>
+    <view class='m-btn' bindtap="share">
+      我要赚钱
+    </view>
+  </view>
+  <view class='img-nav'>
+    零碎时间轻松赚钱
+    <image class='title-l' src="../../images/left1.png" mode='widthFix'></image>
+    <image src="../../images/right1.png" mode='widthFix'></image>
+  </view>
+  <view class='con-img'>
+    <image src="../../images/photo1.png" mode='widthFix'></image>
+  </view>
+  <view class='con-img'>
+    <image src="../../images/photo2.png" mode='widthFix'></image>
+  </view>
+  <view class='con-img'>
+    <image src="../../images/photo3.png" mode='widthFix'></image>
+  </view>
+  <view class='kuang-b'>
+    <view class='kuang-b-one'>
+      <view class='one-mid'>
+        1分钟就闪赚
+      </view>
+      <view class='one-line'></view>
+      <view class='one-bt'>
+        来吧，换个“活”法，一起做时间的老板！
+      </view>
+    </view>
+  </view>
+  <view class='img-nav img-nav-two '>
+    1分钟，海量任务挑选
+    <image class='title-l' src="../../images/left1.png" mode='widthFix'></image>
+    <image src="../../images/right1.png" mode='widthFix'></image>
+  </view>
+  <view class='select-line'>
+    <view class='select-line-1'>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_sign.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>注册</view>
+          <view class='l-massage-t'>APP注册、微信公众号注册等</view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_vote.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>投票</view>
+          <view class='l-massage-t'>砍价助力、微信点赞、网络投票</view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_follow.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>关注</view>
+          <view class='l-massage-t'>店铺关注、微博大V关注等</view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_browse.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>浏览</view>
+          <view class='l-massage-t'>广告浏览、新闻浏览、视频浏览</view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_forward.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>转发</view>
+          <view class='l-massage-t'>朋友圈转发、微博转发、文章转发等</view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_fans.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>加粉</view>
+          <view class='l-massage-t'>微信加粉、淘宝店铺加粉等</view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_post.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>发帖</view>
+          <view class='l-massage-t'>朋友圈发帖、游戏发帖、问答发帖等</view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo'>
+          <image src="../../images/icon_comment.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>评论</view>
+          <view class='l-massage-t'>扫码好评、天猫评价、应用评价等</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='img-nav img-nav-three '>
+    众帮互助平台4大优势
+    <image class='title-l' src="../../images/left1.png" mode='widthFix'></image>
+    <image src="../../images/right1.png" mode='widthFix'></image>
+  </view>
+  <view class='select-line'>
+    <view class='select-line-1'>
+      <view class='select-logo-c'>
+        <view class='l-logo num-logo'>
+          <image src="../../images/1.png" mode='widthFix'></image>
+        </view>
+        <view class='r-content'>
+          <view>
+            <text class="one">1分钟</text>快速赚钱</view>
+          <view class='l-massage-t'>任务简单，1分钟完成游刃有余！快速 掌握赚钱技巧，怎么赚，你说了算！
+          </view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo  num-logo-2'>
+          <image src="../../images/2.png" mode='aspectFit'></image>
+        </view>
+        <view class='r-content'>
+          <view>
+            <text class="one">1键式</text>海量任务</view>
+          <view class='l-massage-t'>免去申请任务的所有繁琐环节，免去 应聘兼职的所有沟通环节，1键式做 任务更省事，海量选择，你说了算！
+          </view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo  num-logo-2'>
+          <image src="../../images/3.png" mode='aspectFit'></image>
+        </view>
+        <view class='r-content'>
+          <view>
+            <text class="one">1+N</text>部落红利</view>
+          <view class='l-massage-t'>1人的兼职技能get,创建N人的部落， 一起玩“赚”众帮平台，获得分红， 坐收N人之利。滚雪球式的收入要多 大，你说了算！
+          </view>
+        </view>
+      </view>
+      <view class='select-logo-c'>
+        <view class='l-logo  num-logo-4'>
+          <image src="../../images/4.png" mode='aspectFit'></image>
+        </view>
+        <view class='r-content'>
+          <view>
+            <text class="one">1站式</text>轻松推广</view>
+          <view class='l-massage-t'>多重任务发布类型，社群推广，粉丝 推广，网络营销，电商营销，拉新导 流，全部一站直达，网聚众人力量， 帮你轻松推广。怎么做，你说了算！
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='img-nav img-nav-f '>
+    关于我们
+    <image class='title-l' src="../../images/left1.png" mode='widthFix'></image>
+    <image src="../../images/right1.png" mode='widthFix'></image>
+  </view>
+  <view class='kuang-b-l'>
+    <view class='kuang-b-l-one'>
+      <view class='one-mid'>
+        众帮互助
+      </view>
+      <view class='one-line'></view>
+      <view class='one-bt'>
+        众帮互助平台是一个网络微任务、网络兼 职、网络推广的专业化平台。通过人人互 助互帮的理念，集成海量网络任务、兼职 资讯，是全网最全的一站式兼职资讯平台。 以友好的用户体验为核心，我们不断让网络兼职更快捷、更快捷、更省心。
+      </view>
+      <view class="wangzhi">网址：
+        <text>https://www.youchent.com</text>
+      </view>
+    </view>
+
+  </view>
+
+    <canvas canvas-id="shareImg" style="width:545px;height:771px"></canvas>
+    <!-- <view hidden='{{hidden}}' class='preview'>
+      <image src='{{prurl}}' mode='widthFix'></image>
+      <button type='primary' size='mini' bindtap='save'>保存分享图</button>
+    </view> -->
+</view>

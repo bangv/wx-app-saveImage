@@ -1,0 +1,48 @@
+<view class="container">
+  <view class='bg-top'>
+    <image src="../../images/banner_top_1.png" mode='widthFix'></image>
+  </view>
+  <view class='bg-footer'>
+    <image src="../../images/banner_top_2.png" mode='widthFix'></image>
+  </view>
+  <view class='content-c'>
+    <image class="honggao-top" src="../../images/hongb-top.png" mode='widthFix'></image>
+    <image class="honggao-footer" src="../../images/hongb-footer.png" mode='widthFix'></image>
+    <view class='form-i'>
+      <view class='form-d'>
+        <view class='vi-ip'>
+          <!-- aspectFit -->
+          <input class='i-input-l' maxlength="11" name='phone' id='phone' bindinput="inputPhone" type="number" placeholder="请输入手机号码" />
+          <!-- <view class='del-x'>
+            <image src="../../images/icon_close.png" mode='widthFix'></image>
+          </view> -->
+        </view>
+        <view class='d-flex'>
+          <input maxlength="4" class='i-input-l' bindinput="inputimgCode" type="text" placeholder="请输入图形码" />
+          <view class='code-im-i' bindtap='changImg'>
+            <image src="{{checkCode_url}}" mode='aspectFit'></image>
+          </view>
+        </view>
+        <view class='d-flex'>
+          <view>
+            <input maxlength="6" class='i-input-l' bindinput="inputmassageCode" type="number" placeholder="请输入验证码" />
+          </view>
+          <view class="code-im  {{disabledFlag?'codeStyle':''}}" bindtap="getVerificationCode">{{time}}</view>
+        </view>
+        <view>
+          <input class='i-input-l' maxlength="6" bindinput="inputpassword" type="password" placeholder="请输入注册密码" />
+        </view>
+        <button class='sign-btn' bindtap='signFtn'>立即领红包</button>
+      </view>
+    </view>
+    <view class='g-rule'>
+      <text class='line'></text>
+      <text>领取细则</text>
+      <text class='line-r'></text>
+    </view>
+    <view class='f-s'>1.红包仅限未注册过“众帮互助”的新用户领取 </view>
+    <view class='f-s'>2.每个用户仅限领取一次。 </view>
+    <view class='f-s'>3.众帮互助严厉打击一人多账户，核查到将封号扣款。 </view>
+
+  </view>
+</view>
